@@ -29,5 +29,5 @@ Windows Event ID analysis
 Alert triage
 Identifying failed vs. successful authentication
 Correlating Windows events with Wazuh  alerts
-
+Scenario 1](images/scenario-1.png)
 
