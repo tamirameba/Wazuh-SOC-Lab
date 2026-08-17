@@ -36,8 +36,8 @@ Investigation:
 On 17.8.26 at 1:07 AM, a new user account named testSoc was created
 on the DESKTOP-U6KFT7L computer by the user soc-user
 An event was logged in Windows Security under Event ID 4720 and successfully identified by Wazuh using Rule ID 60109 – User account enabled or created.
-In summary:
-The system successfully identified the creation of a new user. The event was logged in Windows Security as 4720 and collected by Wazuh where it was identified using Rule ID 60109.
+Verdict: False Positive
+Reason: The user account was intentionally created as part of a controlled security monitoring test. Wazuh successfully detected the activity through Event ID 4720 and Rule ID 60109
 Scenario 2(images/scenario-2.png)
 
 
