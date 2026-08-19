@@ -6,8 +6,8 @@ Lab Architecture:
 wazuh Server: 172.20.10.11
 Monitored Endpoint: Windows 10 VM
 Hypervisor: VirtualBox on macOS
-Scenario 1: Authentication Monitoring
 
+Scenario 1: Authentication Monitoring
 What I Did:
 Simulated failed login attempts on the Windows 10 VM using wrong passwords, followed by a successful login.
 Windows Events Observed
