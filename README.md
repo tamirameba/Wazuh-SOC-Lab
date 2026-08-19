@@ -42,6 +42,16 @@ Scenario 2(images/scenario-2.png)
 
 
 
+scenario 3: Privilege Escalation
+Description:
+A user account received administrative privileges on a Windows computer.
+Investigation:
+On August 18, 2026, at approximately 2:41 AM, the user account testSOC received administrative privileges on the computer DESKTOP-U6KFT7L.
+The activity was logged in the Windows Security event log under Event ID 4672 (Special privileges assigned to new logon). The corresponding activity was also detected by Wazuh under Rule ID 60154.
+Verdict: False Positive
+Reason:
+The administrative privileges were granted as part of an authorized test activity. Therefore, the event is considered expected behavior and does not indicate a malicious privilege escalation.
+Scenario 3(images/scenario-3.png)
 
 
 
